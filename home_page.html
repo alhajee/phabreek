@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta char-set="utf-8" name="Phabreek.tk" content="African fabric like you've never seen them" >
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="icon" href="images/logos/Phabreek8.1icon.png">
+    <title>Phabreek</title>
+    <link rel="script" href="js/loaders/pace.min.js">
+    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="dataurl.css">
+
+    <noscript><b style="width:100%;margin: 0 auto;color: #da000f;display: block; text-align: center;">Please enable javascript else page functionality will be significantly reduced.</b></noscript>
+
+    <!--help android phones and i-phones save icon to home screen -->
+    <link rel="apple-touch-icon-precomposed" href="images/logos/Phabreek8.1icon.png">
+    <link rel="apple-touch-icon" href="images/logos/Phabreek8.1icon.png">
+
+    <style>
+        #slides {
+            display: none
+        }
+
+        #slides .slidesjs-navigation {
+            margin-top:5px;
+        }
+
+        .slidesjs-pagination {
+            width: 154px;
+            margin: 0 auto;
+            list-style: none;
+        }
+
+        .slidesjs-pagination li {
+            float: left;
+            margin: 0 1px;
+        }
+
+        .slidesjs-pagination li a {
+            display: block;
+            width: 36px;
+            height: 36px;
+            padding-top: 36px;
+            background-image: url(js/slidejs/playing/img/pagination2.png);
+            background-position: 0 0;
+            float: left;
+            overflow: hidden;
+        }
+
+        .slidesjs-pagination li a.active,
+        .slidesjs-pagination li a:hover.active {
+            background-position: 0 -36px
+        }
+
+        .slidesjs-pagination li a:hover {
+            background-position: 0 -72px
+        }
+
+
+    </style>
+    <style>
+        #slides {
+            display: none
+        }
+
+        .container {
+            margin: 0 auto;
+            height: 300px;
+        }
+
+        /* For tablets & smart phones */
+        @media (max-width: 767px) {
+            body {
+                padding:0;
+            }
+            .container {
+                width: 100%;
+            }
+        }
+
+        /* For smartphones */
+        @media (max-width: 480px) {
+            .container {
+                width: 100%
+            }
+        }
+
+        /* For smaller displays like laptops */
+        @media (min-width: 768px) and (max-width: 979px) {
+            .container {
+                width: 100%
+            }
+        }
+
+        /* For larger displays */
+        @media (min-width: 1200px) {
+            .container {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <img class="headerLogo" src="images/logos/Phabreek8.2.png">
+    <span class="loginButton"><img class="loginButtonImage" src="images/buttons/login.png"></span>
+</div>
+<div class="container">
+    <div id="slides">
+        <img src="images/slideshow/one1.jpg" >
+        <img src="images/slideshow/two2.jpg" >
+        <img src="images/slideshow/three3.jpg" >
+        <img src="images/slideshow/four4.jpg" >
+    </div>
+</div>
+
+
+<script src="js/jquery/jquery-3.1.1.js"></script>
+
+
+<script src="js/slidejs/jquery.slides.js"></script>
+
+<script>
+    $(function() {
+        $('#slides').slidesjs({
+            height: 300,
+            play: {
+                active: true,
+                auto: true,
+                interval: 4000,
+                swap: true,
+                effect :"fade"
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

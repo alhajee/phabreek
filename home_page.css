@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, summary {
+    display: block;
+}
+
+body {
+    background: rgba(172, 172, 172, 0.27);
+}
+.head{
+    width: 100%;
+    height: auto;
+    background: #434343;
+    min-height: 100px;
+}
+.headerLogo{
+    width: 30%;
+    margin: 2%;
+}
+.loginButton{
+    padding: 1%;
+    float: right;
+    width: auto;
+    display: inline-block;
+}
+.loginButtonImage{
+    border: thin #a3a3a3 solid;
+    border-radius: 45px;
+    width: 150px;
+}
+.loginButtonImage:hover{
+    border: thin #73406f solid;
+    background: #eeeeee;
+    transition: 1s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 620px) and (min-width: 200px) {
+    .headerLogo{
+        width: 50%;
+        margin: 3%;
+    }
+    .loginButtonImage{
+        width: 70px;
+        border-radius: 45px;
+        margin-top: 5%;
+    }
+}
