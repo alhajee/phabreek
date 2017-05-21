@@ -76,7 +76,27 @@ body {
     transition: 1s;
     cursor: pointer;
 }
+.viewGalleryButton{
+    padding: 1%;
+    width: 308px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
 
+.viewGalleryButtonImage{
+    border-radius: 45px;
+    width: 290px;
+    display: block;
+    background: #333333;
+}
+
+.viewGalleryButtonImage:hover{
+    background: #5d5d5d;
+    transition: 1s;
+    cursor: pointer;
+}
 @media only screen and (max-width: 620px) and (min-width: 200px) {
     .headerLogo{
         width: 50%;
@@ -86,5 +106,24 @@ body {
         width: 70px;
         border-radius: 45px;
         margin-top: 5%;
+    }
+
+    .viewGalleryButton{
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 1px;
+    }
+
+    .viewGalleryButtonImage{
+        border-radius: 45px;
+        width: 200px;
+        display: block;
+        background: #333333;
+    }
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 620px) {
+    .viewGalleryButton{
+        margin-top: 80px;
     }
 }
