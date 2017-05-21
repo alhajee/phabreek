@@ -71,8 +71,7 @@ body {
     width: 150px;
 }
 .loginButtonImage:hover{
-    border: thin #73406f solid;
-    background: #eeeeee;
+    background: #5d5d5d;
     transition: 1s;
     cursor: pointer;
 }
