@@ -76,6 +76,66 @@ body {
     transition: 1s;
     cursor: pointer;
 }
+.viewGalleryButton{
+    padding: 1%;
+    width: 308px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.viewGalleryButtonImage{
+    border-radius: 45px;
+    width: 290px;
+    display: block;
+    background: #333333;
+}
+
+.viewGalleryButtonImage:hover{
+    background: #5d5d5d;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer{
+    /*background-image: url("images/footer/background2.jpg");*/
+    /*background-image-repeat: no-repeat;*/
+    background: #333333;
+    height: 470px;
+    color: #a5a5a5;
+    font-family: Roboto;
+    text-align: center;
+    padding: 2px;
+}
+.footerMsg{
+    font-size: 1.2em;
+    width: 80%;
+    margin: 1% auto;
+}
+.footerMsgSmall{
+    font-size: 1.2em;
+    width: 80%;
+    margin: 1% auto;
+}
+.social{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.download{
+    height: 100px;
+    width:100px;
+}
+.contact{
+    height: 40px;
+    width: 40px;
+    margin: 0 20px;
+}
+.support{
+    height: 50px;
+    width:50px;
+    margin: 5px 20px;
+}
 
 @media only screen and (max-width: 620px) and (min-width: 200px) {
     .headerLogo{
@@ -86,5 +146,47 @@ body {
         width: 70px;
         border-radius: 45px;
         margin-top: 5%;
+    }
+
+    .viewGalleryButton{
+        width: 200px;
+        margin: 1px auto;
+    }
+
+    .viewGalleryButtonImage{
+        border-radius: 45px;
+        width: 200px;
+        display: block;
+        background: #333333;
+    }
+
+    .social{
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+    .download{
+        height: 70px;
+        width:70px;
+        margin: 5px;
+    }
+    .contact{
+        height: 30px;
+        width: 30px;
+        margin: 0 20px;
+    }
+    .support{
+        height: 30px;
+        width:30px;
+        margin: 5px 20px;
+    }
+    .footerMsgSmall{
+        margin: 40px auto;
+    }
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 620px) {
+    .viewGalleryButton{
+        margin-top: 80px;
     }
 }
