@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Phabreek Login</title>
-    <!-- *******************************************************************************************
-       * TODO(DEVELOPER): Paste the initialization snippet from:
-       * Firebase Console > Overview > Add Firebase to your web app. *
-       ***************************************************************************************** -->
-    <script src="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.css" />
+
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCfd4pTPB-hCtSusPPIzaIf0ZywU2swhyo",
+    authDomain: "phabreek.firebaseapp.com",
+    databaseURL: "https://phabreek.firebaseio.com",
+    projectId: "phabreek",
+    storageBucket: "phabreek.appspot.com",
+    messagingSenderId: "588022955695"
+  };
+  firebase.initializeApp(config);
+</script>
     <script type="text/javascript">
       // FirebaseUI config.
       var uiConfig = {
@@ -32,7 +40,7 @@
         queryParameterForSignInSuccessUrl: 'signInSuccessUrl',
         // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
         signInFlow: 'popup',
-        signInSuccessUrl: '<url-to-redirect-to-on-success>',
+        signInSuccessUrl: '/',
         signInOptions: [
           // Leave the lines as is for the providers you want to offer your users.
           firebase.auth.GoogleAuthProvider.PROVIDER_ID,
