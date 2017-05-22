@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7343c1-7a42-49de-80b9-f210bea01a90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/cartButton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/cartButton1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/items/dashiki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/proceed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/view.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/xButton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/item1_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/items/ankara.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ankara.html" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\phabreek\public\item1_page.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/items/dashiki.png" afterPath="$PROJECT_DIR$/public/images/items/dashiki.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/gallery.html" afterPath="$PROJECT_DIR$/public/gallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home_page.css" afterPath="$PROJECT_DIR$/public/home_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script.js" afterPath="$PROJECT_DIR$/public/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phabreek.iws" />
@@ -48,8 +42,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.653847">
-              <caret line="179" column="36" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="36" />
+            <state vertical-scroll-proportion="-17.346153">
+              <caret line="158" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,31 +59,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home_page.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/home_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.3431221">
+              <caret line="250" column="24" selection-start-line="250" selection-start-column="24" selection-end-line="250" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.4219003">
-              <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item1_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/item1_page.html">
+      <file leaf-file-name="ankara.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ankara.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -137,10 +131,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/home_page.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/home_page.css" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
-        <option value="$PROJECT_DIR$/public/item1_page.html" />
         <option value="$PROJECT_DIR$/public/gallery.html" />
+        <option value="$PROJECT_DIR$/public/item1_page.html" />
+        <option value="$PROJECT_DIR$/public/ankara.html" />
+        <option value="$PROJECT_DIR$/public/home_page.css" />
       </list>
     </option>
   </component>
@@ -429,7 +424,13 @@
       <option name="project" value="LOCAL" />
       <updated>1495410007493</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="gallery page">
+      <created>1495450176231</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1495450176232</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,7 +474,8 @@
     <MESSAGE value="created &amp; designed footer." />
     <MESSAGE value="picture bug." />
     <MESSAGE value="login bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="login bug" />
+    <MESSAGE value="gallery page" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -554,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.653847">
-          <caret line="179" column="36" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -570,26 +564,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/home_page.css">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+        <state vertical-scroll-proportion="-17.346153">
+          <caret line="158" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/item1_page.html">
+    <entry file="file://$PROJECT_DIR$/public/ankara.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4219003">
-          <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3431221">
+          <caret line="250" column="24" selection-start-line="250" selection-start-column="24" selection-end-line="250" selection-end-column="24" />
           <folding />
         </state>
       </provider>
