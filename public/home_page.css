@@ -77,6 +77,20 @@ body {
     transition: 1s;
     cursor: pointer;
 }
+
+.cartButtonImage{
+    display: inline-block;
+    margin: 3%;
+    border-radius: 45px;
+    width: 150px;
+    float: right;
+    background: #c4c4c4;
+}
+.cartButtonImage:hover{
+    background: #232525;
+    cursor: pointer;
+    transition: 1s;
+}
 .viewGalleryButton{
     padding: 1%;
     width: 308px;
@@ -139,6 +153,96 @@ body {
     margin: 5px 20px;
 }
 
+.galleryContainer{
+    text-align: center;
+    font-size: 2em;
+    color: #9e9e9e;
+    height: auto;
+    width: 95%;
+    margin: 2.5%;
+    font-family: Roboto;
+}
+.view{
+    margin: 10px auto;
+    display: block;
+    width: 100px;
+    display: inline-block;
+    border-radius: 45px;
+    background: #c4c4c4;
+}
+.view:hover{
+    background: #232525;
+    cursor: pointer;
+    transition: 1s;
+}
+.item{
+    height: auto;
+    width:30%;
+    margin:1%;
+    display: inline-block;
+}
+.item:Hover{
+    border-radius: 15px;
+    box-shadow: #5d5d5d .1px .1px .5px .3px;
+}
+.itemImage{
+    height: auto;
+    width: 70%;
+}
+.itemImage:hover{
+    cursor: pointer;
+}
+.itemName{
+    cursor: pointer;
+    text-decoration: none;
+    color: #9e9e9e;
+}
+.cart{
+    text-align: center;
+    width: 50%;
+    min-width: 200px;
+    max-height:800px;
+    overflow-y: auto;
+    background: #626262;
+    border-radius: 35px;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    z-index: 10;
+    display: none;
+}
+.xButton{
+    width: 50px;
+    margin-left: 70%;
+    padding: 1%;
+    cursor: pointer;
+}
+.cartItem{
+    width: 30%;
+    margin: 5%;
+    display: inline-block;
+}
+.cartItemImage{
+    width: 80%;
+}
+.cartProceed{
+    display: block;
+    margin: 2px auto;
+    border-radius: 45px;
+    width: 150px;
+    background: #e4e4e4;
+}
+.cartProceed:hover{
+    background: #f2f2f2;
+    cursor: pointer;
+    transition: 1s;
+}
+.itemTotal{
+    font-size: 1.2em;
+    color: #202020;
+}
+
 @media only screen and (max-width: 620px) and (min-width: 200px) {
     .headerLogo{
         width: 50%;
@@ -185,6 +289,30 @@ body {
     .footerMsgSmall{
         margin: 40px auto;
     }
+
+    .cartButtonImage{
+        margin: 3%;
+        width: 100px;
+    }
+    .item{
+        height: auto;
+        width:40%;
+        margin:2%;
+        display: inline-block;
+    }
+
+    .cart{
+        width: 80%;
+        min-width: 200px;
+        background: #626262;
+        border-radius: 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        z-index: 10;
+    }
+
 }
 
 @media only screen and (max-width: 1120px) and (min-width: 620px) {
