@@ -249,12 +249,54 @@ body {
     margin: 2%;
     height: 500px;
     border-radius: 35px;
+    display: inline-block;
+}
+.briefDescription{
+    color: #888888;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 2em;
+    float: right;
+    margin: 5%;
+    width: 30%;
+}
+.otherBriefDescription{
+    color: #999999;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 2% auto;
+    width: 70%;
+}
+.image1{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.image2{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.clearFix{
+    clear: both;
+    display: block;
 }
 
+.addToCart{
+    width: 200px;
+    display: block;
+    margin: 100px auto;
+    border-radius: 45px;
+    background: #daff52;
+}
 
-
-
-
+.addToCart:hover {
+    width: 220px;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 620px) and (min-width: 200px) {
     .headerLogo{
