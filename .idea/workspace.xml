@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7343c1-7a42-49de-80b9-f210bea01a90" name="Default" comment="new UI/Functionalities added.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/buttons/toTheTop.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\phabreek\public\js\jquery\jquery-3.1.1.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-3.2.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ankara.html" afterPath="$PROJECT_DIR$/public/ankara.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/gallery.html" afterPath="$PROJECT_DIR$/public/gallery.html" />
+    <list default="true" id="1f7343c1-7a42-49de-80b9-f210bea01a90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home_page.css" afterPath="$PROJECT_DIR$/public/home_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script.js" afterPath="$PROJECT_DIR$/public/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phabreek.iws" />
@@ -63,8 +57,8 @@
       <file leaf-file-name="home_page.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/home_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9322835">
-              <caret line="185" column="39" selection-start-line="185" selection-start-column="39" selection-end-line="185" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.48661417">
+              <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -134,9 +128,9 @@
         <option value="$PROJECT_DIR$/public/item1_page.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/gallery.html" />
-        <option value="$PROJECT_DIR$/public/home_page.css" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
         <option value="$PROJECT_DIR$/public/ankara.html" />
+        <option value="$PROJECT_DIR$/public/home_page.css" />
       </list>
     </option>
   </component>
@@ -487,7 +481,13 @@
       <option name="project" value="LOCAL" />
       <updated>1495468128200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new UI/Functionalities added.">
+      <created>1495497409313</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1495497409313</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -713,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/home_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9322835">
-          <caret line="185" column="39" selection-start-line="185" selection-start-column="39" selection-end-line="185" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.48661417">
+          <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
           <folding />
         </state>
       </provider>

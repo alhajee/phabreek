@@ -305,6 +305,7 @@ body {
     z-index: 20;
     top:90%;
     left:90%;
+    cursor: pointer;
 
 }
 
