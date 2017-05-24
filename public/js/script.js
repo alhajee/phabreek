@@ -3,12 +3,16 @@
 $(".cart").hide();
 
 $(".cartButtonImage").click(function(){
+    $(".cart").display="block";
     $(".cart").show().slideDown("slow");
+    $("cart").transition="2s";
 
 });
 
 $(".xButton").click(function(){
     $(".cart").hide().slideUp("slow");
+    $(".cart").display="none";
+    $("cart").transition="2s";
 
 });
 $(document).ready(function(){
