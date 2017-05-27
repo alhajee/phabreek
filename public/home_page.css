@@ -285,15 +285,15 @@ body {
 }
 
 .addToCart{
-    width: 200px;
+    width: 180px;
     display: block;
     margin: 100px auto;
     border-radius: 45px;
-    background: #e0e0e0;
+    background: #ffffff;
 }
 
 .addToCart:hover {
-    width: 210px;
+    width: 190px;
     cursor: pointer;
 }
 
