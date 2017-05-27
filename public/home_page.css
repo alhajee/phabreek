@@ -81,13 +81,13 @@ body {
 .cartButtonImage{
     display: inline-block;
     margin: 3%;
-    border-radius: 45px;
+    border-radius: 35px;
     width: 150px;
     float: right;
-    background: #c4c4c4;
+    background: #d3d3d3;
 }
 .cartButtonImage:hover{
-    background: #232525;
+    background: #ffffff;
     cursor: pointer;
     transition: 1s;
 }
