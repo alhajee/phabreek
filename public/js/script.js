@@ -5,16 +5,73 @@ $(".cart").hide();
 $(".cartButtonImage").click(function(){
     $(".cart").display="block";
     $(".cart").show().slideDown("slow");
-    $("cart").transition="2s";
+    $(".cart").transition="2s";
 
 });
 
 $(".xButton").click(function(){
     $(".cart").hide().slideUp("slow");
     $(".cart").display="none";
-    $("cart").transition="2s";
+    $(".cart").transition="2s";
 
 });
+
+
+simpleCart({
+    shippingQuantityRate: 3
+});
+
+
+simpleCart({
+    shippingTotalRate: 0.1
+});
+
+simpleCart({
+    shippingCustom: function(){
+        if( simpleCart.quantity() > 20 ){
+            return 0;
+        } else {
+            return 10;
+        }
+    }
+});
+
+simpleCart({
+    checkout: {
+        type: "SendForm" ,
+        url: "http://example.com/your/custom/checkout/url" ,
+        // http method for form, "POST" or "GET", default is "POST"
+        method: "GET" ,
+        // url to return to on successful checkout, default is null
+        success: "success.html" ,
+        // url to return to on cancelled checkout, default is null
+        cancel: "cancel.html" ,
+        // an option list of extra name/value pairs that can
+        // be sent along with the checkout data
+        extra_data: {
+            storename: "Bob's cool plumbing store",
+            cartid: "12321321"
+        }
+    }
+});
+
+simpleCart({
+    cartColumns: [
+        { attr: "name" , label: "" } ,
+        {view:'image' , attr:'thumb', label: false},
+        { attr: "price" , label: "", view: 'currency' } ,
+        { view: "decrement" , label: false , text: "-" } ,
+        { attr: "quantity" , label: "" } ,
+        { view: "increment" , label: false , text: "<img class='plusButton' src='images/buttons/plusButton.png'> " } ,
+        { attr: "total" , label: "" , view: 'currency' } ,
+        { view: "remove" , text: "Remove" , label: false }
+    ]
+});
+
+$('.shipment').document.write(simpleCart.shipping());
+$('.grandTotal').innerHTML.document.write(simpleCart.grandTotal());
+
+
 $(document).ready(function(){
 
     $(window).scroll(function(){
