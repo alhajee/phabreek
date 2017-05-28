@@ -202,9 +202,10 @@ body {
     height: auto;
     min-width: 200px;
     max-height:900px;
+    min-height: 200px;
     overflow-y: auto;
     background: #626262;
-    border-radius: 35px;
+    border-radius: 20px;
     margin: 0 auto;
     position: absolute;
     top: 150px;
@@ -218,10 +219,15 @@ body {
     padding: 1%;
     cursor: pointer;
 }
-.cartItem, .itemRow, {
-    width: 30%;
-    margin: 5%;
-    display: inline-block;
+.minusButton{
+    width: 30px;
+}
+.plusButton{
+    width: 30px;
+}
+.cartItem, .itemRow{
+    width: 100%;
+    display:block;
 }
 .cartItemImage{
     width: 60%;

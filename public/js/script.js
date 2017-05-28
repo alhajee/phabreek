@@ -16,6 +16,24 @@ $(".xButton").click(function(){
 
 });
 
+$(document).ready(function(){
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.topArrow').fadeIn();
+        } else {
+            $('.topArrow').fadeOut();
+        }
+    });
+
+    $('.topArrow').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
+
+});
+
+
 
 simpleCart({
     shippingQuantityRate: 3
@@ -60,34 +78,26 @@ simpleCart({
         { attr: "name" , label: "" } ,
         {view:'image' , attr:'thumb', label: false},
         { attr: "price" , label: "", view: 'currency' } ,
-        { view: "decrement" , label: false , text: "-" } ,
+        { view: "decrement" , label: false , text: "<img class='minusButton' src='images/buttons/minusButton.png'> " } ,
         { attr: "quantity" , label: "" } ,
         { view: "increment" , label: false , text: "<img class='plusButton' src='images/buttons/plusButton.png'> " } ,
         { attr: "total" , label: "" , view: 'currency' } ,
-        { view: "remove" , text: "Remove" , label: false }
+        { view: "remove" , text: "Remove" , label: false },
     ]
 });
 
-$('.shipment').document.write(simpleCart.shipping());
-$('.grandTotal').innerHTML.document.write(simpleCart.grandTotal());
+////$('.shipment').HTML.write(simpleCart.shipping());
+////$('.grandTotal').HTML.write(simpleCart.grandTotal());
+//$('span.shipment').append(simpleCart.shipping());
+//
+////document.getElementsByClassName('grandTotal').innerHTML = simpleCart.grandTotal() ;
+//var gtot = $("<p></p>").text(simpleCart.grandTotal());
+//
+//$('span.grandTotal').append(gtot);
 
 
-$(document).ready(function(){
 
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
-            $('.topArrow').fadeIn();
-        } else {
-            $('.topArrow').fadeOut();
-        }
-    });
 
-    $('.topArrow').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
-        return false;
-    });
-
-});
 
 
  // Initialize Firebase
