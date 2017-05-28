@@ -1,0 +1,69 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /root/.nvm/versions/node/v7.10.0/bin/node /root/.nvm/versions/node/v7.10.0/bin/firebase deploy
+[debug] CLI Version:  3.9.0
+[debug] Platform:     linux
+[debug] Node Version: v7.10.0
+[debug] Time:         Sun May 28 2017 12:08:37 GMT+0100 (WAT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/XZInK9miFXHHmv2kHHa3cy__QmMiymvt-rNmBrdrvHQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun May 28 2017 12:08:37 GMT+0100 (WAT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/phabreek  
+ Sun May 28 2017 12:08:41 GMT+0100 (WAT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/phabreek/tokens  
+ Sun May 28 2017 12:08:42 GMT+0100 (WAT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'phabreek'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/phabreek/uploads/-KlDjdqyZXr28SBWifFs?fileCount=94&message=  
+ Sun May 28 2017 12:08:58 GMT+0100 (WAT)
+[debug] Error: socket hang up
+    at createHangUpError (_http_client.js:302:15)
+    at TLSSocket.socketOnEnd (_http_client.js:394:23)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /root/.nvm/versions/node/v7.10.0/bin/node /root/.nvm/versions/node/v7.10.0/bin/firebase deploy
+[debug] CLI Version:  3.9.0
+[debug] Platform:     linux
+[debug] Node Version: v7.10.0
+[debug] Time:         Sun May 28 2017 12:17:06 GMT+0100 (WAT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/phabreek  
+ Sun May 28 2017 12:17:06 GMT+0100 (WAT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/phabreek/tokens  
+ Sun May 28 2017 12:17:25 GMT+0100 (WAT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'phabreek'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/phabreek/uploads/-KlDlmgD2th79vj7N4Sk?fileCount=94&message=  
+ Sun May 28 2017 12:18:18 GMT+0100 (WAT)
+[debug] Error: read ECONNRESET
+    at exports._errnoException (util.js:1050:11)
+    at TLSWrap.onread (net.js:582:26)
+[error] 
+[error] Error: Server Error. read ECONNRESET
