@@ -18,6 +18,17 @@
 
 </head>
 <body>
+
+<script src="js/cart/simpleCart.js"></script>
+<script>
+    simpleCart({
+        checkout: {
+            type: "SendForm" ,
+            url: "http://example.com/your/custom/checkout/url"
+        }
+    });
+</script>
+
 <div class="head">
     <a href="index.html"><img class="headerLogo" src="images/logos/Phabreek8.2.png"></a>
     <img class="cartButtonImage" src="images/buttons/cartButton1.png">
@@ -55,37 +66,50 @@
 <span class="clearFix"></span>
 <img class="addToCart" src="images/buttons/add1.png">
 
+<div class="simpleCart_shelfItem">
+    <h2 class="item_name"> Awesome T </h2>
+    <p>  <input type="text" value="1" class="item_Quantity"><br>
+        <span class="item_price">$37.99</span><br>
+        <a class="item_add" href="javascript:;"> Add to Cart </a></p>
+</div>
 
 
-<div class="cart">
-    <img class="xButton" src="images/buttons/xButton.png" >
-    <br>
-    <br>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <p class="itemTotal">Total: $400</p>
-    <br>
-    <img class="cartProceed" src="images/buttons/proceed.png">
+<div class="cartItem simpleCart_items">
+    <div class="item-name"></div>
 
 </div>
+<a href="javascript:;" class="simpleCart_checkout">checkout</a>
+<a href="javascript:;" class="simpleCart_empty">empty cart</a>
+
+<!--<div class="cart">-->
+    <!--<img class="xButton" src="images/buttons/xButton.png" >-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<p class="itemTotal">Total: $400</p>-->
+    <!--<br>-->
+    <!--<img class="cartProceed" src="images/buttons/proceed.png">-->
+
+<!--</div>-->
 
 <img class="topArrow" src="images/buttons/toTheTop.png">
 

@@ -19,6 +19,19 @@
 </head>
 <body>
 
+<script src="js/cart/simpleCart.js"></script>
+<script>
+    simpleCart({
+        checkout: {
+            type: "SendForm" ,
+            url: "http://example.com/your/custom/checkout/url"
+        }
+    });
+</script>
+
+
+
+
 <div class="head">
     <a href="index.html"><img class="headerLogo" src="images/logos/Phabreek8.2.png"></a>
     <img class="cartButtonImage" src="images/buttons/cartButton1.png" >
@@ -86,34 +99,45 @@
 </div>
 
 <div class="cart">
-    <img class="xButton" src="images/buttons/xButton.png">
-    <br>
-    <br>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <div class="cartItem">
-        <img class="cartItemImage" src="images/items/dashiki.png" >
-        <a class="itemName"><p class="itemName">Dashiki</p></a>
-        <p class="itemName">$100</p>
-    </div>
-    <p class="itemTotal">Total: $400</p>
-    <br>
-    <img class="cartProceed" src="images/buttons/proceed.png">
+<img class="xButton" src="images/buttons/xButton.png">
+
+<div class=" cartItem simpleCart_items">
 
 </div>
+    <p><span class="shipment"><script>this.innerHTML.document.write(simpleCart.grandTotal());</script></span></p>
+    <p><span class="grandTotal"></span></p>
+<a href="javascript:;" class="simpleCart_checkout">checkout</a>
+<a href="javascript:;" class="simpleCart_empty">empty cart</a>
+</div>
+<!--<div class="cart">-->
+    <!--<img class="xButton" src="images/buttons/xButton.png">-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<div class="cartItem">-->
+        <!--<img class="cartItemImage" src="images/items/dashiki.png" >-->
+        <!--<a class="itemName"><p class="itemName">Dashiki</p></a>-->
+        <!--<p class="itemName">$100</p>-->
+    <!--</div>-->
+    <!--<p class="itemTotal">Total: $400</p>-->
+    <!--<br>-->
+    <!--<img class="cartProceed" src="images/buttons/proceed.png">-->
+
+<!--</div>-->
 
 <div class="footer">
     <p class="footerMsg">
@@ -138,6 +162,9 @@
     </p>
 </div>
 <script src="js/jquery/jquery-3.2.1.js"></script>
+
+
+
 <script src="js/script.js"></script>
 </body>
 </html>

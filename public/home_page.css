@@ -199,8 +199,9 @@ body {
 .cart{
     text-align: center;
     width: 50%;
+    height: auto;
     min-width: 200px;
-    max-height:800px;
+    max-height:900px;
     overflow-y: auto;
     background: #626262;
     border-radius: 35px;
@@ -217,13 +218,14 @@ body {
     padding: 1%;
     cursor: pointer;
 }
-.cartItem{
+.cartItem, .itemRow, {
     width: 30%;
     margin: 5%;
     display: inline-block;
 }
 .cartItemImage{
-    width: 80%;
+    width: 60%;
+    display: none;
 }
 .cartProceed{
     display: block;
@@ -243,12 +245,12 @@ body {
 }
 
 .sketchfab-embed-wrapper{
-    width: 55%;
+    width: 80%;
     min-width: 200px;
-    margin: 2%;
+    margin: 2% auto;
     height: 500px;
     border-radius: 35px;
-    display: inline-block;
+    display: block;
 }
 .briefDescription{
     color: #888888;
@@ -258,6 +260,7 @@ body {
     float: right;
     margin: 5%;
     width: 30%;
+    display: inline-block;
 }
 .otherBriefDescription{
     color: #999999;
@@ -306,6 +309,17 @@ body {
     left:90%;
     cursor: pointer;
 
+}
+
+.item-name{
+    font-size: 1em;
+    margin-top: 20px;
+    font-family: Roboto;
+    color: #999999;
+}
+
+.item-thumb img{
+    width: 30%;
 }
 
 
